@@ -1,0 +1,96 @@
+// Base styles come here, if you don't use INK as a base framework.
+
+///////////////////////////////////////////////
+/// HEADER
+///////////////////////////////////////////////
+
+.header {
+    width: 100% !important;
+}
+
+
+
+///////////////////////////////////////////////
+/// end: HEADER
+///////////////////////////////////////////////
+
+
+///////////////////////////////////////////////
+/// FOOTER
+///////////////////////////////////////////////
+
+// .footer {
+//     width: 100%;
+// }
+
+// .footer-table {
+//     display: inline-block;
+//     float: left;
+// }
+
+// .footer-left {
+//     width: 70%;
+// }
+
+// .footer-right {
+//     width: 30%;
+// }
+
+// .footer-left td {
+//     text-align: left;
+// }
+
+// .footer-right td {
+//     width: 100%;
+//     text-align: right;
+// }
+
+///////////////////////////////////////////////
+/// end: FOOTER
+///////////////////////////////////////////////
+
+
+
+///////////////////////////////////////////////
+/// WIDGETS
+///////////////////////////////////////////////
+
+@each $value in 5, 10, 15, 20, 30, 40 {
+    .spacer-#{$value}-mobile {
+        padding: 0 !important;
+        font-size: 0;
+        height: 0;
+        margin: 0;
+    }
+}
+
+@each $value in 5, 10, 15, 20, 30, 40 {
+    .spacer-#{$value} {
+        padding: #{$value}px 0 0 0 !important;
+        font-size: 0;
+        height: 0;
+        margin: 0;
+    }
+}
+
+@each $value in 0, 10, 15, 20, 30, 40 {
+    .PT-#{$value} {
+        padding-top: #{$value}px !important;
+    }
+}
+
+@each $value in 0, 10, 15, 20, 30, 40 {
+    .PB-#{$value} {
+        padding-bottom: #{$value}px !important;
+    }
+}
+
+
+
+.no-padding {
+    padding: 0 !important
+}
+
+///////////////////////////////////////////////
+/// end: WIDGETS
+///////////////////////////////////////////////
